@@ -1,1 +1,4 @@
-theme: minima
+title: Test site title
+description: Test site description
+show_downloads: false
+theme: jekyll-theme-architect
