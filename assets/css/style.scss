@@ -94,20 +94,36 @@ code {
   background: #333;
   border-radius: 2px;
 }
-
+**/
 pre {
   padding:8px 15px;
   background: #333333;
   border-radius: 3px;
   border:1px solid #c7c7c7;
-  overflow: auto;
-  overflow-y: hidden;
 
+  position: relative;
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
   code {
     margin: 0px;
     padding: 0px;
   }
+} 
+pre::before {
+  content: "Copy";
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 0.9rem;
 }
+
+/**
 
 kbd {
   background-color: #fafbfc;
