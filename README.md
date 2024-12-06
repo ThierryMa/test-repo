@@ -1,6 +1,4 @@
 # Test Page Header
-# Header Second Part 
-
 
 ## Chapter 1
 
