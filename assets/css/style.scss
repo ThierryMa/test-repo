@@ -14,29 +14,31 @@ body {
   padding:0px 0 20px 0px;
   background: white;
 }
-h1, h2, h3, h4, h5, h6 {
-  color:#666666;
-  margin:0 0 10px;
+h1, h2, h3, h4, h5, h6 { 
+  color: #006580;
+  margin:2rem  0 2rem;
+  font-weight: normal;
 }
 
-/**
+
 p, ul, ol, table, pre, dl {
   margin:0 0 20px;
 }
 
 h1, h2, h3 {
+
   line-height:1.1;
 }
 
 h1 {
   font-size:28px;
+  margin:0  0 2rem;
 }
 
 h2 {
   font-size: 24px;
-  color:#393939;
 }
-
+/**
 h3, h4, h5, h6 {
   color:#666666;
 }
@@ -61,6 +63,7 @@ a small {
 
 ul{
       list-style-type: disc;
+      list-style-image: unset;
 }
 
 strong {
@@ -86,19 +89,19 @@ blockquote {
 }
 
 code {
-  font-family: 'Lucida Sans', Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
-  font-size:13px;
-  color:#efefef;
-  text-shadow: 0px 1px 0px #000;
-  margin: 0 4px;
-  padding: 2px 6px;
-  background: #333;
-  border-radius: 2px;
+    font-family: 'Lucida Sans', Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
+    font-size: 13px;
+    color: #006580;
+    text-shadow: none;
+    margin: 0 2px;
+    padding: 2px 4px;
+    background: #D9D8D6;
+    border-radius: 2px
 }
 
 pre {
   padding:8px 15px;
-  background: #333333;
+  background: #22272B;
   border-radius: 3px;
   border:1px solid #c7c7c7;
 
@@ -106,6 +109,7 @@ pre {
   padding: 1rem;
   border: 1px solid #ddd;
   code {
+    background-color: transparent;
     margin: 0px;
     padding: 0px;
   }
