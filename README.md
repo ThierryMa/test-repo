@@ -18,7 +18,10 @@ Sed ut perspiciatis unde [omis iste natus](https://img.freepik.com/free-photo/so
 ```json
 {
   "test": "data",
-  "key":"value"
+  "key":"value",
+  "number": 1.12,
+  "int": -1,
+  "boolean": true
 }
 ```
 
