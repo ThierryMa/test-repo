@@ -4,7 +4,7 @@ const modal = document.getElementById("image-lightbox");
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 const images = document.querySelectorAll('img');
 const modalImg = document.getElementById("lightboxed-image");
-const closeBtn = document.querySelector(".close");
+const closeBtn = document.querySelector(".modal-close");
 
 images.forEach(img => {
     img.addEventListener('click', () => {
